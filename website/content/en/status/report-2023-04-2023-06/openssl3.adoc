@@ -32,7 +32,7 @@ This possibility has been leveraged in FreeBSD to help with the transition, wher
 These components will be updated progressively over time in order to consume OpenSSL 3's native API instead.
 
 While there is a known performance impact associated with the update when consuming small input block sizes, it was found to be marginal when working with blocks of 1 KB and above.
-Another challenge lies with the FIPS provider module, which currently requires some manual steps in order to let it work.
+Another challenge lies with the FIPS provider module, which currently requires some manual steps in order to have it working.
 We are currently looking for a solution to ship FreeBSD with a functional FIPS provider by default.
 
 Sponsor: The FreeBSD Foundation
