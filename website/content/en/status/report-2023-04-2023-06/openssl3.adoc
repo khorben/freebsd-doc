@@ -18,7 +18,7 @@ However, official support is planned to end in the middle of September this year
 
 OpenSSL has largely outgrown its ancestor SSLeay, now shipping over half a million single lines of code (SLOC) split in over 2.000 files.
 Perhaps as a consequence, its build system is relatively complex and normally requires Perl, which has been removed from FreeBSD's base system since 5.0-RELEASE.
-Thankfully however, it was possible to import and setup OpenSSL's 3.0.9 release the FreeBSD way, and it is now part of the base system in time for FreeBSD's 14.0 release.
+Thankfully however, it was possible to import and setup OpenSSL's 3.0.9 release the FreeBSD way, and it is now part of the base system as planned for FreeBSD's 14.0 release.
 
 It is an understatement to mention that OpenSSL 3 is a new major release.
 First, its problematic licensing model has finally been solved, with a complete switch to the Apache License 2.0.
