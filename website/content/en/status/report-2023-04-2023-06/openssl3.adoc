@@ -23,7 +23,7 @@ Thankfully however, it was possible to import and setup OpenSSL's 3.0.9 release 
 It is an understatement to mention that OpenSSL 3 is a new major release.
 First, its problematic licensing model has finally been solved, with a complete switch to the Apache License 2.0.
 Then, OpenSSL 3 introduces the concept of provider modules.
-While obsolete cryptographical algorithms have been isolated away into a "legacy" module, it is also possible to restrict the implementation to standards part of FIPS with the "fips" module.
+While obsolete cryptographical algorithms have been isolated away into a "legacy" module, it is also possible to restrict the implementation to standards part of link:https://en.wikipedia.org/wiki/Federal_Information_Processing_Standards[FIPS] with the "fips" module.
 The latter can then benefit from a dedicated certification process, and be validated officially (like the 3.0.8 release when writing these lines).
 
 Moreover, the updated library comes with a version bump, as applications using OpenSSL 1.1 need to be recompiled to use 3.0.
